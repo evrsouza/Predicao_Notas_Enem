@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="18"/>
+<entry key="0" type="xstring" value="NU_IDADE"/>
+<entry key="1" type="xstring" value="TP_ST_CONCLUSAO"/>
+<entry key="2" type="xstring" value="TP_ESCOLA"/>
+<entry key="3" type="xstring" value="TP_ENSINO"/>
+<entry key="4" type="xstring" value="IN_TREINEIRO"/>
+<entry key="5" type="xstring" value="TP_DEPENDENCIA_ADM_ESC"/>
+<entry key="6" type="xstring" value="TP_LOCALIZACAO_ESC"/>
+<entry key="7" type="xstring" value="NU_NOTA_CN"/>
+<entry key="8" type="xstring" value="NU_NOTA_CH"/>
+<entry key="9" type="xstring" value="NU_NOTA_LC"/>
+<entry key="10" type="xstring" value="NU_NOTA_MT"/>
+<entry key="11" type="xstring" value="TP_STATUS_REDACAO"/>
+<entry key="12" type="xstring" value="NU_NOTA_COMP1"/>
+<entry key="13" type="xstring" value="NU_NOTA_COMP2"/>
+<entry key="14" type="xstring" value="NU_NOTA_COMP3"/>
+<entry key="15" type="xstring" value="NU_NOTA_COMP4"/>
+<entry key="16" type="xstring" value="NU_NOTA_COMP5"/>
+<entry key="17" type="xstring" value="NU_NOTA_REDACAO"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="149"/>
+<entry key="0" type="xstring" value="Col0"/>
+<entry key="1" type="xstring" value="NU_INSCRICAO"/>
+<entry key="2" type="xstring" value="NU_ANO"/>
+<entry key="3" type="xstring" value="CO_MUNICIPIO_RESIDENCIA"/>
+<entry key="4" type="xstring" value="NO_MUNICIPIO_RESIDENCIA"/>
+<entry key="5" type="xstring" value="CO_UF_RESIDENCIA"/>
+<entry key="6" type="xstring" value="SG_UF_RESIDENCIA"/>
+<entry key="7" type="xstring" value="TP_SEXO"/>
+<entry key="8" type="xstring" value="TP_ESTADO_CIVIL"/>
+<entry key="9" type="xstring" value="TP_COR_RACA"/>
+<entry key="10" type="xstring" value="TP_NACIONALIDADE"/>
+<entry key="11" type="xstring" value="CO_MUNICIPIO_NASCIMENTO"/>
+<entry key="12" type="xstring" value="NO_MUNICIPIO_NASCIMENTO"/>
+<entry key="13" type="xstring" value="CO_UF_NASCIMENTO"/>
+<entry key="14" type="xstring" value="SG_UF_NASCIMENTO"/>
+<entry key="15" type="xstring" value="TP_ANO_CONCLUIU"/>
+<entry key="16" type="xstring" value="CO_ESCOLA"/>
+<entry key="17" type="xstring" value="CO_MUNICIPIO_ESC"/>
+<entry key="18" type="xstring" value="NO_MUNICIPIO_ESC"/>
+<entry key="19" type="xstring" value="CO_UF_ESC"/>
+<entry key="20" type="xstring" value="SG_UF_ESC"/>
+<entry key="21" type="xstring" value="TP_SIT_FUNC_ESC"/>
+<entry key="22" type="xstring" value="IN_BAIXA_VISAO"/>
+<entry key="23" type="xstring" value="IN_CEGUEIRA"/>
+<entry key="24" type="xstring" value="IN_SURDEZ"/>
+<entry key="25" type="xstring" value="IN_DEFICIENCIA_AUDITIVA"/>
+<entry key="26" type="xstring" value="IN_SURDO_CEGUEIRA"/>
+<entry key="27" type="xstring" value="IN_DEFICIENCIA_FISICA"/>
+<entry key="28" type="xstring" value="IN_DEFICIENCIA_MENTAL"/>
+<entry key="29" type="xstring" value="IN_DEFICIT_ATENCAO"/>
+<entry key="30" type="xstring" value="IN_DISLEXIA"/>
+<entry key="31" type="xstring" value="IN_DISCALCULIA"/>
+<entry key="32" type="xstring" value="IN_AUTISMO"/>
+<entry key="33" type="xstring" value="IN_VISAO_MONOCULAR"/>
+<entry key="34" type="xstring" value="IN_OUTRA_DEF"/>
+<entry key="35" type="xstring" value="IN_SABATISTA"/>
+<entry key="36" type="xstring" value="IN_GESTANTE"/>
+<entry key="37" type="xstring" value="IN_LACTANTE"/>
+<entry key="38" type="xstring" value="IN_IDOSO"/>
+<entry key="39" type="xstring" value="IN_ESTUDA_CLASSE_HOSPITALAR"/>
+<entry key="40" type="xstring" value="IN_SEM_RECURSO"/>
+<entry key="41" type="xstring" value="IN_BRAILLE"/>
+<entry key="42" type="xstring" value="IN_AMPLIADA_24"/>
+<entry key="43" type="xstring" value="IN_AMPLIADA_18"/>
+<entry key="44" type="xstring" value="IN_LEDOR"/>
+<entry key="45" type="xstring" value="IN_ACESSO"/>
+<entry key="46" type="xstring" value="IN_TRANSCRICAO"/>
+<entry key="47" type="xstring" value="IN_LIBRAS"/>
+<entry key="48" type="xstring" value="IN_LEITURA_LABIAL"/>
+<entry key="49" type="xstring" value="IN_MESA_CADEIRA_RODAS"/>
+<entry key="50" type="xstring" value="IN_MESA_CADEIRA_SEPARADA"/>
+<entry key="51" type="xstring" value="IN_APOIO_PERNA"/>
+<entry key="52" type="xstring" value="IN_GUIA_INTERPRETE"/>
+<entry key="53" type="xstring" value="IN_MACA"/>
+<entry key="54" type="xstring" value="IN_COMPUTADOR"/>
+<entry key="55" type="xstring" value="IN_CADEIRA_ESPECIAL"/>
+<entry key="56" type="xstring" value="IN_CADEIRA_CANHOTO"/>
+<entry key="57" type="xstring" value="IN_CADEIRA_ACOLCHOADA"/>
+<entry key="58" type="xstring" value="IN_PROVA_DEITADO"/>
+<entry key="59" type="xstring" value="IN_MOBILIARIO_OBESO"/>
+<entry key="60" type="xstring" value="IN_LAMINA_OVERLAY"/>
+<entry key="61" type="xstring" value="IN_PROTETOR_AURICULAR"/>
+<entry key="62" type="xstring" value="IN_MEDIDOR_GLICOSE"/>
+<entry key="63" type="xstring" value="IN_MAQUINA_BRAILE"/>
+<entry key="64" type="xstring" value="IN_SOROBAN"/>
+<entry key="65" type="xstring" value="IN_MARCA_PASSO"/>
+<entry key="66" type="xstring" value="IN_SONDA"/>
+<entry key="67" type="xstring" value="IN_MEDICAMENTOS"/>
+<entry key="68" type="xstring" value="IN_SALA_INDIVIDUAL"/>
+<entry key="69" type="xstring" value="IN_SALA_ESPECIAL"/>
+<entry key="70" type="xstring" value="IN_SALA_ACOMPANHANTE"/>
+<entry key="71" type="xstring" value="IN_MOBILIARIO_ESPECIFICO"/>
+<entry key="72" type="xstring" value="IN_MATERIAL_ESPECIFICO"/>
+<entry key="73" type="xstring" value="IN_NOME_SOCIAL"/>
+<entry key="74" type="xstring" value="IN_CERTIFICADO"/>
+<entry key="75" type="xstring" value="NO_ENTIDADE_CERTIFICACAO"/>
+<entry key="76" type="xstring" value="CO_UF_ENTIDADE_CERTIFICACAO"/>
+<entry key="77" type="xstring" value="SG_UF_ENTIDADE_CERTIFICACAO"/>
+<entry key="78" type="xstring" value="CO_MUNICIPIO_PROVA"/>
+<entry key="79" type="xstring" value="NO_MUNICIPIO_PROVA"/>
+<entry key="80" type="xstring" value="CO_UF_PROVA"/>
+<entry key="81" type="xstring" value="SG_UF_PROVA"/>
+<entry key="82" type="xstring" value="TP_PRESENCA_CN"/>
+<entry key="83" type="xstring" value="TP_PRESENCA_CH"/>
+<entry key="84" type="xstring" value="TP_PRESENCA_LC"/>
+<entry key="85" type="xstring" value="TP_PRESENCA_MT"/>
+<entry key="86" type="xstring" value="CO_PROVA_CN"/>
+<entry key="87" type="xstring" value="CO_PROVA_CH"/>
+<entry key="88" type="xstring" value="CO_PROVA_LC"/>
+<entry key="89" type="xstring" value="CO_PROVA_MT"/>
+<entry key="90" type="xstring" value="TX_RESPOSTAS_CN"/>
+<entry key="91" type="xstring" value="TX_RESPOSTAS_CH"/>
+<entry key="92" type="xstring" value="TX_RESPOSTAS_LC"/>
+<entry key="93" type="xstring" value="TX_RESPOSTAS_MT"/>
+<entry key="94" type="xstring" value="TP_LINGUA"/>
+<entry key="95" type="xstring" value="TX_GABARITO_CN"/>
+<entry key="96" type="xstring" value="TX_GABARITO_CH"/>
+<entry key="97" type="xstring" value="TX_GABARITO_LC"/>
+<entry key="98" type="xstring" value="TX_GABARITO_MT"/>
+<entry key="99" type="xstring" value="Q001"/>
+<entry key="100" type="xstring" value="Q002"/>
+<entry key="101" type="xstring" value="Q003"/>
+<entry key="102" type="xstring" value="Q004"/>
+<entry key="103" type="xstring" value="Q005"/>
+<entry key="104" type="xstring" value="Q006"/>
+<entry key="105" type="xstring" value="Q007"/>
+<entry key="106" type="xstring" value="Q008"/>
+<entry key="107" type="xstring" value="Q009"/>
+<entry key="108" type="xstring" value="Q010"/>
+<entry key="109" type="xstring" value="Q011"/>
+<entry key="110" type="xstring" value="Q012"/>
+<entry key="111" type="xstring" value="Q013"/>
+<entry key="112" type="xstring" value="Q014"/>
+<entry key="113" type="xstring" value="Q015"/>
+<entry key="114" type="xstring" value="Q016"/>
+<entry key="115" type="xstring" value="Q017"/>
+<entry key="116" type="xstring" value="Q018"/>
+<entry key="117" type="xstring" value="Q019"/>
+<entry key="118" type="xstring" value="Q020"/>
+<entry key="119" type="xstring" value="Q021"/>
+<entry key="120" type="xstring" value="Q022"/>
+<entry key="121" type="xstring" value="Q023"/>
+<entry key="122" type="xstring" value="Q024"/>
+<entry key="123" type="xstring" value="Q025"/>
+<entry key="124" type="xstring" value="Q026"/>
+<entry key="125" type="xstring" value="Q027"/>
+<entry key="126" type="xstring" value="Q028"/>
+<entry key="127" type="xstring" value="Q029"/>
+<entry key="128" type="xstring" value="Q030"/>
+<entry key="129" type="xstring" value="Q031"/>
+<entry key="130" type="xstring" value="Q032"/>
+<entry key="131" type="xstring" value="Q033"/>
+<entry key="132" type="xstring" value="Q034"/>
+<entry key="133" type="xstring" value="Q035"/>
+<entry key="134" type="xstring" value="Q036"/>
+<entry key="135" type="xstring" value="Q037"/>
+<entry key="136" type="xstring" value="Q038"/>
+<entry key="137" type="xstring" value="Q039"/>
+<entry key="138" type="xstring" value="Q040"/>
+<entry key="139" type="xstring" value="Q041"/>
+<entry key="140" type="xstring" value="Q042"/>
+<entry key="141" type="xstring" value="Q043"/>
+<entry key="142" type="xstring" value="Q044"/>
+<entry key="143" type="xstring" value="Q045"/>
+<entry key="144" type="xstring" value="Q046"/>
+<entry key="145" type="xstring" value="Q047"/>
+<entry key="146" type="xstring" value="Q048"/>
+<entry key="147" type="xstring" value="Q049"/>
+<entry key="148" type="xstring" value="Q050"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Filtro de colunas_Inteiros e Double"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="202"/>
+<entry key="y-coordinate" type="xint" value="119"/>
+<entry key="width" type="xint" value="197"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201912041211"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201912041824"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 13730, Cols: 18"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="3c4e743b-98c2-48a4-8425-a16080adf15b"/>
+</config>
+</config>
